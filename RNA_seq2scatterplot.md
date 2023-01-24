@@ -1,15 +1,17 @@
 ## Gene-level differential expression analysis using DESeq2
 
 ## Setup
+```{r}
 setwd("~VertebrateDynamics/DEanalysis")
-
+```
 ### Bioconductor and CRAN libraries used
+```{r}
 library(tidyverse)
 library(RColorBrewer)
 library(DESeq2)
 library(pheatmap)
 library(DEGreport)
-
+```
 ## Load in data
 data1 <- read.table("data/Mov10_full_counts.txt", header=T, row.names=1) 
 data <- read.csv("data/Chicken_matrix_FC.csv", header=T,sep = ";",row.names=1)
