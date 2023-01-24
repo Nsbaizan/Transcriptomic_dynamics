@@ -169,7 +169,7 @@ p
 
 write.csv(as.data.frame(Chicken), 
           file="results/ChickenDEGsS2vsS1_2022.csv")
-```{r}
+```
 
 ## References
 The code used for the analysis of DEGs was adapted from: 
